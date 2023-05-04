@@ -1,29 +1,21 @@
-import Criticando from "../../public/criticandotransparente.png"
+import {AiFillGithub,AiFillLinkedin} from "react-icons/ai"
 
 function Card(){
     return(
-        // <div classNameName="rounded-full md:flex">
-        //     <div classNameName="bg-zinc-400">
-        //         <h1>Criticando</h1>
-        //     </div>
-        //     <div classNameName="bg-zinc-200">
-        //         <img src={Criticando} alt="logo criticando" />
-        //     </div>
-        // </div>
-        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
-            <div className="md:flex">
-                <div className="md:shrink-0  bg-slate-800">
-                    <img className="h-48 w-full object-cover md:h-full md:w-48" src={Criticando} alt="Modern building architecture"/>
-                </div>
-                <div className="p-8 bg-slate-400">
-                    <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
-                        Company retreats
+            <div className="">
+                <div className="w-60 h-40">
+                    <div className="w-full h-full rounded-bl-tl rounded-tr-xl">
+                        <img className="w-full object-cover md:w-48" src={''} alt="project"/>
                     </div>
-                    <a href="#" className="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accommodation for your team</a>
-                    <p className="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+                    <div className="flex items-center justify-center gap-6 bg-zinc-200 rounded-bl-xl rounded-br-xl">
+                        <AiFillGithub className="text-3xl m-2"></AiFillGithub>
+                        <button className="bg-green-400 px-4 rounded-md text-lg text-white">ver</button>
+                    </div>
+                </div>
+                <div>
+                    <h2>Projeto de TCC - Criticando</h2>
                 </div>
             </div>
-        </div>
     )
 }
 
