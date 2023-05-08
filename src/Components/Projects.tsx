@@ -11,7 +11,7 @@ function Skills(){
                 <div className="flex flex-row w-full h-full justify-center flex-wrap mb-8 gap-8 items-center">
                     <div className="w-80 h-full">
                         <img className="bg-zinc-100 rounded-xl border-zinc-800/50 border-2 w-80 h-40" src={Criticando} alt="project"/>
-                        <a href=""><button className="p-2 px-4 bg-zinc-200 my-4 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
+                        <a href="https://github.com/ThalisTrisch/FrontCriticando.git"><button className="p-2 px-4 bg-zinc-200 my-4 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
                     </div>
                     <div className='w-2/4 h-fit bg-zinc-200 max-md:w-80 rounded-xl px-6 py-6'>
                         <p className="text-2xl max-md:text-xl mb-2 text-justify pl-8"><strong>TCC - Criticando</strong></p>
@@ -37,14 +37,14 @@ function Skills(){
                     </div>
                     <div className="w-80 h-full">
                         <img className="bg-zinc-100 rounded-xl border-zinc-800/50 border-2 w-80 h-40" src={Chat} alt="project"/>
-                        <a href=""><button className="p-2 px-4 bg-zinc-200 my-4 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
+                        <a href="https://github.com/ThalisTrisch/FrontChat.git"><button className="p-2 px-4 bg-zinc-200 my-4 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
                     </div>
                 </div>
                 <div className="flex flex-row w-full h-full justify-center flex-wrap mb-8 gap-8 items-center">
                     <div className="w-80 h-full">
                         <img className="bg-zinc-100 rounded-xl border-zinc-800/50 border-2 w-80 h-40" src={Pokedex} alt="project"/>
                         <div className="mt-4 flex items-center justify-center gap-4">
-                            <a href=""><button className="p-2 px-4 bg-zinc-200 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
+                            <a href="https://github.com/ThalisTrisch/PokedexProject.git"><button className="p-2 px-4 bg-zinc-200 rounded-xl border-zinc-800/50 border-2"><AiFillGithub className="text-3xl"/></button></a>
                             <a href="https://pokedex-project-seven.vercel.app/" target="_blanc">
                                 <button className=" text-xl text-white p-2 px-4 bg-green-400 rounded-xl border-green-400 border-2">acessar</button>
                             </a> 
