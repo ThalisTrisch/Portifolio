@@ -1,5 +1,4 @@
 import {AiFillGithub} from "react-icons/ai"
-import {SiVercel} from "react-icons/si"
 import {FaWhatsapp} from "react-icons/fa"
 import {BsLinkedin} from "react-icons/bs"
 import {TfiEmail} from "react-icons/tfi"
@@ -32,9 +31,6 @@ function Footer(){
             <p className='text-xl'>...</p>
             <div className='flex flex-column wrap items-center justify-center gap-2'>
               <p className='max-md:text-xs my-3'>Hosted at Vercel</p>
-              <a href="https:\\vercel.com">
-                <div className='bg-black rounded-full w-fit p-2'><SiVercel className='text-sm text-gray-400'></SiVercel></div>
-              </a>
             </div>
             <div  className='flex flex-row items-center justify-center gap-4'>
               <p className='max-md:text-xs'>Copyright©ThalisTrisch</p>
