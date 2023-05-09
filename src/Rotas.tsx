@@ -9,7 +9,7 @@ function Rotas() {
     <Router>
       <Routes>
         <Route path='/' element={<Principal/>}/>
-        <Route path='/Projetos' element={<Projetos/>}/>
+        <Route path='/projetos' element={<Projetos/>}/>
       </Routes>
     </Router>
   )

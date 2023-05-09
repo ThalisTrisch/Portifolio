@@ -53,22 +53,14 @@ function Principal() {
       </div>
       <h2 className='text-3xl font-bold mt-20 mb-4' id="conhecimentos">Conhecimentos</h2>
       <Skills></Skills>
-      {/* <div className='flex justify-center w-full my-8 mb-20'>
-        <a href="/conhecimentos">
-          <button className="bg-green-400 px-6 py-2 rounded-md text-lg text-white">Mais detalhes</button>
-        </a>
-      </div> */}
       <h2 className='text-3xl font-bold mt-20 my-8' id="resumo">Sobre mim</h2>
       <div className='w-full flex  justify-center mb-12'>
         <div className='w-2/3 max-md:w-3/4'>
           <p className='text-justify text-sm'>&#160; &#160; &#160; &#160; &#160;Atualmente com 19 anos estou cursando análise e desenvolvimento de 
-          sistemas no IFSUL câmpus Gravataí, na mesma instituição onde realizei o ensino médio por 4 anos e tive 
+          sistemas no IFSUL câmpus Gravataí, mesma instituição onde realizei o ensino médio por 4 anos e tive 
           contato com a área de TI por conta do ensino técnico de informática para internet. Ao longo do 
           meu aprendizado nessa área consegui me aperfeiçoar e adiquirir paixão e vontade de seguir na carreira de
           tecnologia almejando atuar futuramente como full stack.
-          
-          
-          
           </p>
         </div>
       </div>
