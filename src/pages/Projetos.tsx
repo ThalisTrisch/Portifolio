@@ -7,7 +7,7 @@ function Projetos(){
     return(
         <>
             <TopBar></TopBar>
-            <h2 className='text-3xl font-bold pt-40 mb-16' id="projetos">Principais projetos</h2>
+            <p className='text-3xl font-bold pt-40 mb-16'>Principais projetos</p>
             <Projects></Projects>
             <Footer></Footer>
         </>
