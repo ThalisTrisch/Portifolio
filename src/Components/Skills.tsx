@@ -1,5 +1,5 @@
 import {AiFillHtml5} from "react-icons/ai"
-import {SiTailwindcss,SiJavascript,SiMongodb} from "react-icons/si"
+import {SiTailwindcss,SiJavascript,SiMongodb,SiTypescript} from "react-icons/si"
 import {FaCss3Alt,FaPython,FaJava,FaNodeJs,FaLaravel} from "react-icons/fa"
 import {TbApi} from "react-icons/tb"
 import {GrReactjs,GrMysql} from "react-icons/gr"
@@ -20,7 +20,8 @@ function Skills(){
         {name: 'API',icon:<TbApi/>},
         {name: 'TailwindCSS',icon:<SiTailwindcss/>},
         {name: 'MySql',icon:<GrMysql/>},
-        {name: 'MongoDB',icon:<SiMongodb/>}
+        {name: 'MongoDB',icon:<SiMongodb/>},
+        {name: 'TypeScript',icon:<SiTypescript/>}
     ])
 
     return(
