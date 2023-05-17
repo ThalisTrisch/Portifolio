@@ -9,13 +9,7 @@ import Tech from "./Tech"
 import { useState } from "react";
 
 function Skills(){
-
-    const [techs,setTechs] = useState([
-        ['NodeJS', 'ReactJS', 'MySql', 'Firebase', 'Google OAuth2.0','The Movie Database'],
-        ['NodeJS', 'ReactJS', 'MongoDB', 'Google OAuth2.0'],
-        ['NodeJS', 'ReactJS', 'typescript', 'PokéAPI']
-    ])
-
+    
     return(
         <>
             <div className="flex justify-center w-full flex-wrap">
