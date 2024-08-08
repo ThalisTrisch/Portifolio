@@ -96,7 +96,7 @@ function Skills(){
                         <img className="rounded-xl border-2 w-80 h-40" src={Netflix} alt="project"/>
                         <div className="mt-4 flex items-center justify-center gap-4">
                             <a href="https://github.com/ThalisTrisch/CloneNetflix" target="_blanc"><button className="p-2 px-4 bg-zinc-300 rounded-xl"><AiFillGithub className="text-3xl"/></button></a>
-                            <a href="https://clone-netflix-eight-ruddy.vercel.app/" target="_blanc">
+                            <a href="clone-netflix-git-main-thalistrisch.vercel.app" target="_blanc">
                                 <button className=" text-xl text-white p-2 px-4 bg-green-400 rounded-xl border-green-400">acessar</button>
                             </a> 
                        </div>
